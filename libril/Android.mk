@@ -18,6 +18,7 @@ LOCAL_SHARED_LIBRARIES := \
     librilutils
 
 LOCAL_CFLAGS :=
+	-Os
 ifdef BOARD_USE_NEW_LIBRIL_HTC
     LOCAL_CFLAGS += -DNEW_LIBRIL_HTC
 endif
